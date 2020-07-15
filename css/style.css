@@ -446,6 +446,53 @@ nav .nav-group .nav-item a {
   left: 0;
 }
 
+@media screen and (max-width: 992px) {
+  .banner-title h2 {
+    font-size: 40px;
+    font-weight: 400;
+  }
+  .banner-title p {
+    font-size: 28px;
+  }
+  .banner-title span {
+    margin-top: 20px;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: inline-block;
+    padding: 5px 20px;
+    font-size: 18px;
+    background-color: #4f7aa4;
+  }
+  .banner-group {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 300px;
+    margin-top: 60px;
+  }
+  .banner-tag {
+    color: #fff;
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px 0;
+    letter-spacing: 0.1em;
+    background-color: #3879AE;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+  }
+  .banner-tag:hover {
+    background-color: #276BAC;
+  }
+}
+
 .intro .row {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
